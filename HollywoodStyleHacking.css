@@ -8,3 +8,19 @@
 	color:white;
 	text-align:center;
 }
+#table1 {
+	font-size: 20px;
+}
+body {
+	background-color: #500;
+	color:black;
+}
+a {
+	color:green;
+}
+a:visited {
+	color:gray;
+}
+a:hover {
+	color: pink;
+}
