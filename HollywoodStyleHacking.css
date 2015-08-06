@@ -8,17 +8,18 @@
 
 body {
 	background-color: #500;
-	color: #000;
+	color: #999;
 }
 
 a {
-	color: #888;
+	color: #999;
 }
 a:visited {
 	color: #888;
 }
+
 a:hover {
-	color: #F99;
+	color: #B22;
 }
 
 nav {
@@ -30,6 +31,21 @@ nav {
 nav a {
 	text-decoration: none;
 	display: block;
+	border: 1px solid;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 4px 4px 2px;
+	background: linear-gradient(#000, #A22);
+}
+
+nav a:active {
+	text-decoration: none;
+	display: block;
+	border: 1px solid;
+	text-align: center;
+	border-radius: 15px;
+	box-shadow: 4px 4px 2px;
+	background: linear-gradient(#A22, #000);
 }
 
 nav .active {
@@ -96,6 +112,7 @@ footer {
 @media screen and (max-width: 600px) {
 	a {
 		font-size: 150%;
-}
+	}
 	body {
 	}
+}
